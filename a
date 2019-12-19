@@ -1,0 +1,35 @@
+[33mcommit 8f1e9500532d47e61e4dbbf351a175992c3d3b33[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Slaurmagan <s.hrakovich33@mail.ru>
+Date:   Wed Dec 18 23:48:58 2019 +0300
+
+    Added edit action
+
+[33mcommit 02c2811cc54d7066f767e40354ecd0c0a64f2531[m
+Author: Slaurmagan <s.hrakovich33@mail.ru>
+Date:   Wed Dec 18 23:35:33 2019 +0300
+
+    Added flash error messages and show action
+
+[33mcommit d233842814828ee957c0f2093619457dcc9508d6[m[33m ([m[1;31mheroku/master[m[33m)[m
+Author: Slaurmagan <s.hrakovich33@mail.ru>
+Date:   Mon Dec 16 23:46:12 2019 +0300
+
+    Added show and create actions
+
+[33mcommit bd6148f655b9a46ce2bd7c7ad3044eb428b4b264[m
+Author: Slaurmagan <s.hrakovich33@mail.ru>
+Date:   Sat Dec 14 16:52:33 2019 +0300
+
+    Preparing for production
+
+[33mcommit ad1a21b861c5a0e1115c5443384d898c090b4d24[m
+Author: Slaurmagan <s.hrakovich33@mail.ru>
+Date:   Sat Dec 14 16:43:03 2019 +0300
+
+    modify readme
+
+[33mcommit 23225d2258f62c400672bfb92029fc7b9a51bc04[m
+Author: Slaurmagan <s.hrakovich33@mail.ru>
+Date:   Sat Dec 14 16:37:03 2019 +0300
+
+    first commit
