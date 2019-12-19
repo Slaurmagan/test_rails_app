@@ -1,36 +1,32 @@
 <% if @article.errors.any?%>
-<h2>The following errors prevented the article from getting created</h2>
-<ul>
-<% @article.errors.full_messages.each do |msg|%>
-    <li><%= msg %></li>
-<% end %></ul>
-
-
-
+    <h2>The following errors prevented the article from getting created</h2>
+    <ul>
+    <% @article.errors.full_messages.each do |msg|%>
+        <li><%= msg %></li>
+    <% end %></ul>
+    </ul>
 <% end %>
+
 <%= form_for @article do |f| %>
-  <div class="form-group row">
-    
-    <%= f.label :title,class: "col-sm-2 col-form-label"%>
-    <div class="col-sm-10">
-      <%=f.text_field :title,class: "form-control"%>
+    <div class="form-group row">
+        
+        <%= f.label :title,class: "col-sm-2 col-form-label"%>
+        <div class="col-sm-10">
+            <%= f.text_field :title,class: "form-control",placeholder: "Title of article",autofocus: true %>
+        </div>
     </div>
-  </div>
-  <div class="form-group row">
-    <%= f.label :description,class: "col-sm-2 col-form-label"%>
-    <div class="col-sm-10">
-      <%= f.text_area :description,class: "form-control"%>
+    <div class="form-group row">
+        <%= f.label :description,class: "col-sm-2 col-form-label"%>
+        <div class="col-sm-10">
+            <%= f.text_area :description,class: "form-control",id: "description__area",placeholder: "Description of article"%>
+        </div>
     </div>
-  </div>
-  <fieldset class="form-group">
-
-  </fieldset>
-
-  <div class="form-group row">
-    <div class="col-sm-10">
-     <!-- -->
-     <%= f.submit 'Create article',:class => "btn btn-primary"%> 
+    <div class="form-group row">
+        <div class="col-sm-12 form__btn">
+            <%= f.submit :class => "btn btn-primary"%> 
+        </div>
     </div>
-  </div>
 <% end %>
-<%= link_to  "Back to list of articles", articles_path %>
+<div class="col-xs-4 form__btn">
+     <%= link_to  "Cancel request and return to article listing", articles_path %>
+</div>

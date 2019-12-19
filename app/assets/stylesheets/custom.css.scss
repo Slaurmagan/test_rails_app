@@ -71,7 +71,34 @@ footer ul li{
     float: left;
     margin-left: 15px;
 }
-     
+.edit__header{
+    margin: 20px 0px;
+}
+.field_with_errors textarea{
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px red;
+}
+.field_with_errors input{
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px red;
+}
+
+.form__btn{
+    display: flex;
+    justify-content: center;
+}
+.form__btn input{
+    width: 175px;
+}
+#description__area{
+    height: 250px;
+}
+.m25{
+    margin-top: 25px;
+}
+.container ul{
+    list-style: none;
+}
     
 // .navbar-brand {
     
