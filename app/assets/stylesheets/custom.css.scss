@@ -1,0 +1,88 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+
+ .navbar {
+
+     background-color: black !important;
+     
+    
+ }
+.nav-link{
+    color: #A9A9A9 !important;
+}
+ #logo{
+    float:left;
+    font-size: 1.7em;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    transition: text-shadow .3s ease-out;
+
+ }
+ #logo:hover{
+     color:#fff;
+     text-decoration: none;
+     text-shadow: -2px -2px 2px rgba(150, 150, 150, 1);
+ }
+ .center{
+     text-align: center;
+ }
+ .center a{
+     margin-top: 20px;
+ }
+ .center h1{
+     font-weight: bold;
+     text-transform: uppercase;
+     font-size: 36px;
+     color: #fff;
+     margin-bottom: 30px;
+     letter-spacing: -1px;
+ }
+ .jumbotron{
+     margin-top: 13px;
+     background-image: asset-url('ruby.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 550px;
+ }
+ .btn-xlarge{
+     font-size: 1.7em;
+     background-color: black;
+ }
+ .footer{
+     margin-top: 45px;
+     padding-top: 5px;
+     border-top: 1px solid #eaeaea;
+     color: #777;
+ }
+footer a:hover{
+    color: #222222;
+
+}
+footer small{
+    float:left;
+}
+footer ul{
+    float:right;
+    list-style: none;
+}
+footer ul li{
+    float: left;
+    margin-left: 15px;
+}
+     
+    
+// .navbar-brand {
+    
+//     font-size: 3rem;
+    
+// }
+    
+     
+    
+// h1 {
+    
+//     color: red;
+    
+// }
