@@ -103,7 +103,19 @@ footer ul li{
     width: 100%;
     border-bottom: 2px solid #000 !important;
 }
-    
+.list-group-item p{
+    display: inline-block;
+}
+.list-group-item a{
+    display: inline-block;
+}
+#show__card{
+    background-color: #a5f2a5;
+}
+.article-actions{
+    border-top: 1px solid #eaeaea;
+    padding-top: 10px;
+}
 // .navbar-brand {
     
 //     font-size: 3rem;

@@ -3,14 +3,14 @@
 
     <% @articles.each do |article|%>
         <a href="<%= article_path(article)%>" class="list-group-item list-group-item-action active">
-            <div class="d-flex w-100 justify-content-between">
-                
+            <div class="d-flex w-100 justify-content-between"> 
                 <h5 class="mb-1">Title: <%= article.title%></h5>
                 <small><%= article.created_at%></small>
-                
-                
             </div>
-            <p class="mb-1">Description: <%=article.description%></p>
+            <div class="d-flex w-100 justify-content-between">
+                <p>Description: <%=article.description%></p>
+                <small>Upd: <%= article.updated_at%></small>
+            </div>
         </a>
         <div class="divider"></div>
     <%end %>
