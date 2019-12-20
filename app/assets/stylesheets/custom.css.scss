@@ -96,8 +96,12 @@ footer ul li{
 .m25{
     margin-top: 25px;
 }
-.container ul{
-    list-style: none;
+.errors{
+    border: 1px solid black;
+}
+.divider{
+    width: 100%;
+    border-bottom: 2px solid #000 !important;
 }
     
 // .navbar-brand {
