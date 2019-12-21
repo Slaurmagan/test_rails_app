@@ -106,6 +106,12 @@ footer ul li{
 .m50{
     margin-top: 50px;
 }
+.ml15{
+    margin-left: 15px;
+}
+.ml25{
+    margin-left: 25px;
+}
 
 .errors{
     border: 1px solid black;
@@ -174,8 +180,8 @@ ul.pagination{
 }
 ul.pagination li{
 
-    
-    padding: 5px 13px;
+
+    padding: 5px 7px;
     
     background-color: #eaeaea;
     transition: background-color .2s ease-out;
@@ -196,6 +202,8 @@ ul.pagination li.active a{
 }
 ul.pagination li a{
     text-decoration: none;
+    width: 200%;
+    height: 200%;
 }
 
 

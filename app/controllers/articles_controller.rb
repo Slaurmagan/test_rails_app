@@ -3,15 +3,23 @@ class ArticlesController < ApplicationController
     before_action :set_article,only: [:edit,:update,:show,:destroy]
 
     def index
-        @articles = Article.paginate(page: params[:page],per_page:5)
+        @articles = Article.paginate(page: params[:page],per_page: 25)
+
     end
     
     def show
-
+        if !logged_in?
+            flash[:danger] = "You must have been logged in to view this post"
+            redirect_to login_path
+        end
     end
     
     def new
         @article = Article.new
+        if !logged_in?
+            flash[:danger] = "You must be logged in to create posts"
+            redirect_to login_path
+        end
     end
     def create
         @article = Article.new(article_params)
@@ -25,7 +33,13 @@ class ArticlesController < ApplicationController
     end
 
     def edit
-
+        if !logged_in?
+            flash[:danger] = "You must have been logged in to edit this post"
+            redirect_to login_path
+        elsif logged_in? && current_user = @article.user
+            flash[:danger] = "You didn`t have access to this post"
+            redirect_to root_path
+        end
         
     end
     def update

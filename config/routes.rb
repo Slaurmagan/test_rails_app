@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   root 'welcome#home'
   get '/about' => 'welcome#about'
   get '/signup' => 'users#new',as:'signup'
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  delete '/logout' => 'sessions#destroy'
   resources :users,expect: [:new]  
 
 end
