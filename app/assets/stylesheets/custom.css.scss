@@ -93,9 +93,20 @@ footer ul li{
 #description__area{
     height: 250px;
 }
+.m10{
+    margin-top: 10px;
+}
+
 .m25{
     margin-top: 25px;
 }
+.m40{
+    margin-top: 40px;
+}
+.m50{
+    margin-top: 50px;
+}
+
 .errors{
     border: 1px solid black;
 }
@@ -110,7 +121,7 @@ footer ul li{
     display: inline-block;
 }
 #show__card{
-    background-color: #a5f2a5;
+    background-color: #eaeaea;
 }
 .article-actions{
     border-top: 1px solid #eaeaea;
@@ -137,7 +148,21 @@ footer ul li{
     width: 150px;
     border-radius: 50%;
 }
-
+.listing{
+    list-style: none;
+    padding-left: 0;
+}
+.listin li{
+    margin-top: 10px;
+}
+#card__users li{
+    margin-top: 5px;
+}
+.show-card__user{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(43, 206, 179);
+}
 // .navbar-brand {
     
 //     font-size: 3rem;
