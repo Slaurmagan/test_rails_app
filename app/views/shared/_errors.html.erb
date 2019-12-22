@@ -1,6 +1,6 @@
 <% if obj.errors.any?%>
     <div class="alert alert-danger" role="alert">
-        <h4>
+        <h4 class="error__msg">
             <%= pluralize(obj.errors.count,"error") %>
             prohibited this article from being saved:
         </h4>

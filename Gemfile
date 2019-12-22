@@ -19,6 +19,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'rails-controller-testing'
 
 gem 'bcrypt'
 # Use Redis adapter to run Action Cable in production
