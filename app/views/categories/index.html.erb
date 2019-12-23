@@ -5,8 +5,9 @@
 <% @categories.each do |category|%>
     <ul class="listing m25">
         <div class="row justify-content-center">
-            <div class="card col-md-8 center" id="card__categories">
+            <div class="card col-md-4 center" id="card__categories">
                 <li class="article-title"><%= link_to category.name,category_path(category)%> </li>
+                <li><small> <%= pluralize(category.articles.count,"article") %> </small> </li>
             </div>
         </div>
     </ul>

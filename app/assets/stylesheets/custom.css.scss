@@ -173,6 +173,14 @@ footer ul li{
 .listin li{
     margin-top: 10px;
 }
+.badge{
+    background-color: #CEF6F5;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.input_checkbox input{
+    width: auto !important;
+}
 #card__users li{
     margin-top: 5px;
 }
@@ -182,7 +190,13 @@ footer ul li{
     border: 1px solid rgb(43, 206, 179);
 }
 #card__categories{
+ 
+    background-color: #eaeaea;
+    transition: background-color .5s ease-in;
+}
+#card__categories:hover{
     height: 50px;
+    background-color: lightyellow;
 }
 
 div.pagination{
@@ -219,6 +233,13 @@ ul.pagination li a{
     text-decoration: none;
     width: 200%;
     height: 200%;
+}
+.checkbox-inline{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    
+
 }
 
 
